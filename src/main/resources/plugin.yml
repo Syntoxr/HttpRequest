@@ -4,3 +4,10 @@ main: io.github.syntoxr.httprequest.HttpRequest
 description: A plugin for issuing HTTP requests
 author: Syntoxr
 api-version: 1.19
+commands:
+  httprequest:
+    description: "Send HTTP requests through a comment"
+    usage: "/httpRequest <uri> <optional body>"
+    aliases: [hreq, httpreq]
+    permission: permission.node
+    permission-message: "You do not have permission to use this command"
